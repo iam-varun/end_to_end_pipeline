@@ -12,7 +12,7 @@ RUN curl -O https://www.free-css.com/assets/files/free-css-templates/download/pa
     cp -rvf photogenic/* . && \
     rm -rf photogenic photogenic.zip
 
-EXPOSE 80
+EXPOSE 80 22
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 
