@@ -1,0 +1,6 @@
+- hosts: all
+  become: true
+    - name: create new deployment
+      command: kubectl apply -f /home/ec2-user/proj1/Deployment.yml
+    - name: create new service
+      command: kubectl apply -f /home/ec2-user/proj1/Service.yml
