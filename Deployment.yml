@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mrdevops
-        image: vinayvkmb/jenk-ansible
+        image: varunp1995/github_to_dockerhub
         imagepullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
