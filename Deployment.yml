@@ -15,6 +15,5 @@ spec:
       containers:
       - name: mrdevops
         image: varunp1995/github_to_dockerhub
-        imagepullPolicy: Always
         ports:
         - containerPort: 80
